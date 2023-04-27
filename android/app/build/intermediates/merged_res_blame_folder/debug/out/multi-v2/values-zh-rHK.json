@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\des\\Documents\\lamaison-mobile\\starter-kit\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
+            "outputFile": "C:\\Users\\des\\Documents\\lamaison-mobile\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\node_modules\\@viro-community\\react-viro\\android\\arcore_client\\build\\.transforms\\bfc171495302288c75729a7f5f33ba69\\transformed\\jetified-core-1.10.0\\res\\values-zh-rHK\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "194,237,282,354,428",
+                        "endColumns": "42,44,71,73,56",
+                        "endOffsets": "236,281,353,427,484"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "105,152,201,277,355",
+                        "endColumns": "46,48,75,77,60",
+                        "endOffsets": "147,196,272,350,411"
+                    }
+                },
                 {
                     "source": "C:\\Users\\des\\.gradle\\caches\\transforms-3\\88f911b5514d7872c578f03b3281118c\\transformed\\jetified-exoplayer-ui-2.7.1\\res\\values-zh-rHK\\values-zh-rHK.xml",
                     "from": {
@@ -35,23 +52,6 @@
                         "startOffsets": "4112",
                         "endColumns": "100",
                         "endOffsets": "4208"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\starter-kit\\node_modules\\@viro-community\\react-viro\\android\\arcore_client\\build\\.transforms\\8d0d26c58b2fadb070a8fe34d3d7bbcb\\transformed\\jetified-core-1.10.0\\res\\values-zh-rHK\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "194,237,282,354,428",
-                        "endColumns": "42,44,71,73,56",
-                        "endOffsets": "236,281,353,427,484"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "105,152,201,277,355",
-                        "endColumns": "46,48,75,77,60",
-                        "endOffsets": "147,196,272,350,411"
                     }
                 },
                 {

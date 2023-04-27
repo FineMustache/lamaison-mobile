@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\des\\Documents\\lamaison-mobile\\starter-kit\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-af\\values-af.xml",
+            "outputFile": "C:\\Users\\des\\Documents\\lamaison-mobile\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-af\\values-af.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\node_modules\\@viro-community\\react-viro\\android\\arcore_client\\build\\.transforms\\bfc171495302288c75729a7f5f33ba69\\transformed\\jetified-core-1.10.0\\res\\values-af\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,241,294,395,500",
+                        "endColumns": "50,52,100,104,68",
+                        "endOffsets": "240,293,394,499,568"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "105,160,217,322,431",
+                        "endColumns": "54,56,104,108,72",
+                        "endOffsets": "155,212,317,426,499"
+                    }
+                },
                 {
                     "source": "C:\\Users\\des\\.gradle\\caches\\transforms-3\\88f911b5514d7872c578f03b3281118c\\transformed\\jetified-exoplayer-ui-2.7.1\\res\\values-af\\values-af.xml",
                     "from": {
@@ -18,23 +35,6 @@
                         "startOffsets": "3176,3286,3388,3488,3582,3686,3794,3901,4006,4108,4207",
                         "endColumns": "109,101,99,93,103,107,106,104,101,98,91",
                         "endOffsets": "3281,3383,3483,3577,3681,3789,3896,4001,4103,4202,4294"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\starter-kit\\node_modules\\@viro-community\\react-viro\\android\\arcore_client\\build\\.transforms\\8d0d26c58b2fadb070a8fe34d3d7bbcb\\transformed\\jetified-core-1.10.0\\res\\values-af\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "190,241,294,395,500",
-                        "endColumns": "50,52,100,104,68",
-                        "endOffsets": "240,293,394,499,568"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "105,160,217,322,431",
-                        "endColumns": "54,56,104,108,72",
-                        "endOffsets": "155,212,317,426,499"
                     }
                 },
                 {

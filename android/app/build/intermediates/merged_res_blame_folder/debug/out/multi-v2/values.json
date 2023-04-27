@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\des\\Documents\\lamaison-mobile\\starter-kit\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\des\\Documents\\lamaison-mobile\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\des\\.gradle\\caches\\transforms-3\\f4a580ed86404330cdde1cd4e0443948\\transformed\\jetified-appcompat-resources-1.1.0\\res\\values\\values.xml",
@@ -23,6 +23,42 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\node_modules\\@viro-community\\react-viro\\android\\gvr_common\\build\\.transforms\\5936196eeb472edf620021ab5374d008\\transformed\\jetified-sdk-common-1.180.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4,5,8,9,10,13,16,19,22,25,28,31,34,37,40,43,46,50,54,57,60,61,64,67,70,73,76,79,84,89,93,101",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "196,249,376,427,481,617,848,1152,1439,1622,1959,2292,2491,2688,2898,3108,3239,3535,3831,4137,4363,4566,4768,5049,5374,5577,5876,6085,6352,6599,6735,7066",
+                        "endLines": "4,5,8,9,10,15,18,21,24,27,30,33,36,39,42,45,49,53,56,59,60,63,66,69,72,75,78,81,86,90,98,107",
+                        "endColumns": "52,49,50,53,57,11,13,11,11,11,13,13,11,11,11,11,11,11,13,11,202,13,13,13,11,13,13,13,8,8,8,8",
+                        "endOffsets": "248,298,426,480,538,847,1151,1438,1621,1958,2291,2490,2687,2897,3107,3238,3534,3830,4136,4362,4565,4767,5048,5373,5576,5875,6084,6275,6510,6658,6977,7416"
+                    },
+                    "to": {
+                        "startLines": "38,101,182,183,225,353,357,389,392,395,398,401,404,407,410,413,416,420,435,438,441,449,452,455,464,467,479,482,1627,1630,2013,2019",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1853,6098,11578,11633,14503,21868,22178,25860,26151,26338,26679,27021,27224,27425,27639,27853,27988,28288,29365,29675,29905,30648,30854,31139,31922,32129,33140,33353,106812,106975,135786,136033",
+                        "endLines": "38,101,182,183,225,355,359,391,394,397,400,403,406,409,412,415,419,423,437,440,441,451,454,457,466,469,481,484,1629,1631,2018,2025",
+                        "endColumns": "56,53,54,57,61,11,13,11,11,11,13,13,11,11,11,11,11,11,13,11,206,13,13,13,11,13,13,13,8,8,8,8",
+                        "endOffsets": "1905,6147,11628,11686,14560,22098,22481,26146,26333,26674,27016,27219,27420,27634,27848,27983,28283,28583,29670,29900,30107,30849,31134,31459,32124,32427,33348,33543,106970,107034,136028,136383"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\node_modules\\@viro-community\\react-viro\\android\\arcore_client\\build\\.transforms\\bfc171495302288c75729a7f5f33ba69\\transformed\\jetified-core-1.10.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "161,208,259,360,461",
+                        "endColumns": "46,50,100,100,62",
+                        "endOffsets": "207,258,359,460,523"
+                    },
+                    "to": {
+                        "startLines": "319,320,321,322,323",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "19497,19548,19603,19708,19813",
+                        "endColumns": "50,54,104,104,66",
+                        "endOffsets": "19543,19598,19703,19808,19875"
+                    }
+                },
+                {
                     "source": "C:\\Users\\des\\.gradle\\caches\\transforms-3\\914e0aa8dc7c704f74eaed0d9a1f1d98\\transformed\\jetified-drawee-2.5.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,141",
@@ -39,25 +75,6 @@
                         "endLines": "3116,3538",
                         "endColumns": "22,22",
                         "endOffsets": "198095,219133"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\starter-kit\\node_modules\\@viro-community\\react-viro\\android\\gvr_common\\build\\.transforms\\4a36db5f45aec1b4d9118586735b1c6b\\transformed\\jetified-sdk-common-1.180.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "4,5,8,9,10,13,16,19,22,25,28,31,34,37,40,43,46,50,54,57,60,61,64,67,70,73,76,79,84,89,93,101",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "196,249,376,427,481,617,848,1152,1439,1622,1959,2292,2491,2688,2898,3108,3239,3535,3831,4137,4363,4566,4768,5049,5374,5577,5876,6085,6352,6599,6735,7066",
-                        "endLines": "4,5,8,9,10,15,18,21,24,27,30,33,36,39,42,45,49,53,56,59,60,63,66,69,72,75,78,81,86,90,98,107",
-                        "endColumns": "52,49,50,53,57,11,13,11,11,11,13,13,11,11,11,11,11,11,13,11,202,13,13,13,11,13,13,13,8,8,8,8",
-                        "endOffsets": "248,298,426,480,538,847,1151,1438,1621,1958,2291,2490,2687,2897,3107,3238,3534,3830,4136,4362,4565,4767,5048,5373,5576,5875,6084,6275,6510,6658,6977,7416"
-                    },
-                    "to": {
-                        "startLines": "38,101,182,183,225,353,357,389,392,395,398,401,404,407,410,413,416,420,435,438,441,449,452,455,464,467,479,482,1627,1630,2013,2019",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1853,6098,11578,11633,14503,21868,22178,25860,26151,26338,26679,27021,27224,27425,27639,27853,27988,28288,29365,29675,29905,30648,30854,31139,31922,32129,33140,33353,106812,106975,135786,136033",
-                        "endLines": "38,101,182,183,225,355,359,391,394,397,400,403,406,409,412,415,419,423,437,440,441,451,454,457,466,469,481,484,1629,1631,2018,2025",
-                        "endColumns": "56,53,54,57,61,11,13,11,11,11,13,13,11,11,11,11,11,11,13,11,206,13,13,13,11,13,13,13,8,8,8,8",
-                        "endOffsets": "1905,6147,11628,11686,14560,22098,22481,26146,26333,26674,27016,27219,27420,27634,27848,27983,28283,28583,29670,29900,30107,30849,31134,31459,32124,32427,33348,33543,106970,107034,136028,136383"
                     }
                 },
                 {
@@ -118,37 +135,37 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\starter-kit\\node_modules\\@viro-community\\react-viro\\android\\arcore_client\\build\\.transforms\\8d0d26c58b2fadb070a8fe34d3d7bbcb\\transformed\\jetified-core-1.10.0\\res\\values\\values.xml",
+                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\node_modules\\@viro-community\\react-viro\\android\\viro_renderer\\build\\.transforms\\0ccea17859b0cfc71691218087c7cab7\\transformed\\jetified-viro_renderer-release\\res\\values\\values.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "161,208,259,360,461",
-                        "endColumns": "46,50,100,100,62",
-                        "endOffsets": "207,258,359,460,523"
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,101,148,199,257",
+                        "endColumns": "45,46,50,57,55",
+                        "endOffsets": "96,143,194,252,308"
                     },
                     "to": {
-                        "startLines": "319,320,321,322,323",
+                        "startLines": "53,54,55,180,181",
                         "startColumns": "4,4,4,4,4",
-                        "startOffsets": "19497,19548,19603,19708,19813",
-                        "endColumns": "50,54,104,104,66",
-                        "endOffsets": "19543,19598,19703,19808,19875"
+                        "startOffsets": "2996,3042,3089,11464,11522",
+                        "endColumns": "45,46,50,57,55",
+                        "endOffsets": "3037,3084,3135,11517,11573"
                     }
                 },
                 {
-                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\starter-kit\\android\\app\\build\\generated\\res\\resValues\\debug\\values\\gradleResValues.xml",
+                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\android\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "6,8",
-                        "startColumns": "4,4",
-                        "startOffsets": "161,269",
-                        "endColumns": "63,68",
-                        "endOffsets": "220,333"
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "48",
+                        "endOffsets": "61"
                     },
                     "to": {
-                        "startLines": "316,317",
-                        "startColumns": "4,4",
-                        "startOffsets": "19294,19358",
-                        "endColumns": "63,68",
-                        "endOffsets": "19353,19422"
+                        "startLines": "352",
+                        "startColumns": "4",
+                        "startOffsets": "21819",
+                        "endColumns": "48",
+                        "endOffsets": "21863"
                     }
                 },
                 {
@@ -166,23 +183,6 @@
                         "startOffsets": "17942,18011",
                         "endColumns": "68,56",
                         "endOffsets": "18006,18063"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\starter-kit\\node_modules\\@viro-community\\react-viro\\android\\viro_renderer\\build\\.transforms\\2250b5ff88b45fa0caa3da407d6b7dca\\transformed\\jetified-viro_renderer-release\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,101,148,199,257",
-                        "endColumns": "45,46,50,57,55",
-                        "endOffsets": "96,143,194,252,308"
-                    },
-                    "to": {
-                        "startLines": "53,54,55,180,181",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "2996,3042,3089,11464,11522",
-                        "endColumns": "45,46,50,57,55",
-                        "endOffsets": "3037,3084,3135,11517,11573"
                     }
                 },
                 {
@@ -205,7 +205,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\starter-kit\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
@@ -224,20 +224,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\starter-kit\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\android\\app\\build\\generated\\res\\resValues\\debug\\values\\gradleResValues.xml",
                     "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endColumns": "48",
-                        "endOffsets": "61"
+                        "startLines": "6,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "161,269",
+                        "endColumns": "63,68",
+                        "endOffsets": "220,333"
                     },
                     "to": {
-                        "startLines": "352",
-                        "startColumns": "4",
-                        "startOffsets": "21819",
-                        "endColumns": "48",
-                        "endOffsets": "21863"
+                        "startLines": "316,317",
+                        "startColumns": "4,4",
+                        "startOffsets": "19294,19358",
+                        "endColumns": "63,68",
+                        "endOffsets": "19353,19422"
                     }
                 }
             ]

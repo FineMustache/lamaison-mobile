@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\des\\Documents\\lamaison-mobile\\starter-kit\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
+            "outputFile": "C:\\Users\\des\\Documents\\lamaison-mobile\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mk\\values-mk.xml",
             "map": [
-                {
-                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\starter-kit\\node_modules\\@viro-community\\react-viro\\android\\arcore_client\\build\\.transforms\\8d0d26c58b2fadb070a8fe34d3d7bbcb\\transformed\\jetified-core-1.10.0\\res\\values-mk\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "190,237,288,386,486",
-                        "endColumns": "46,50,97,99,64",
-                        "endOffsets": "236,287,385,485,550"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "105,156,211,313,417",
-                        "endColumns": "50,54,101,103,68",
-                        "endOffsets": "151,206,308,412,481"
-                    }
-                },
                 {
                     "source": "C:\\Users\\des\\.gradle\\caches\\transforms-3\\384a804ddf61add8f1298a3b8f500b71\\transformed\\core-1.1.0\\res\\values-mk\\values-mk.xml",
                     "from": {
@@ -35,6 +18,23 @@
                         "startOffsets": "3285",
                         "endColumns": "100",
                         "endOffsets": "3381"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\node_modules\\@viro-community\\react-viro\\android\\arcore_client\\build\\.transforms\\bfc171495302288c75729a7f5f33ba69\\transformed\\jetified-core-1.10.0\\res\\values-mk\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,237,288,386,486",
+                        "endColumns": "46,50,97,99,64",
+                        "endOffsets": "236,287,385,485,550"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "105,156,211,313,417",
+                        "endColumns": "50,54,101,103,68",
+                        "endOffsets": "151,206,308,412,481"
                     }
                 },
                 {

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\des\\Documents\\lamaison-mobile\\starter-kit\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v19\\values-v19.xml",
+            "outputFile": "C:\\Users\\des\\Documents\\lamaison-mobile\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v19\\values-v19.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\starter-kit\\node_modules\\@viro-community\\react-viro\\android\\gvr_common\\build\\.transforms\\4a36db5f45aec1b4d9118586735b1c6b\\transformed\\jetified-sdk-common-1.180.0\\res\\values-v19\\values.xml",
+                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\node_modules\\@viro-community\\react-viro\\android\\gvr_common\\build\\.transforms\\5936196eeb472edf620021ab5374d008\\transformed\\jetified-sdk-common-1.180.0\\res\\values-v19\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
