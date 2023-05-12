@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:1:1-44:12
-INJECTED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:1:1-44:12
-INJECTED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:1:1-44:12
-INJECTED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:1:1-44:12
-MERGED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:1:1-44:12
+ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:1:1-46:12
+INJECTED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:1:1-46:12
+INJECTED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:1:1-46:12
+INJECTED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:1:1-46:12
+MERGED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:1:1-46:12
 MERGED from [com.facebook.flipper:flipper:0.93.0] C:\Users\des\.gradle\caches\transforms-3\8cf55bdce16a002612f05f30a64a017a\transformed\jetified-flipper-0.93.0\AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.93.0] C:\Users\des\.gradle\caches\transforms-3\6ac5e08a3d747ccd42a04f95db527b1e\transformed\jetified-flipper-network-plugin-0.93.0\AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.93.0] C:\Users\des\.gradle\caches\transforms-3\594e574e0e6998dd29b825080f234440\transformed\jetified-flipper-fresco-plugin-0.93.0\AndroidManifest.xml:8:1-15:12
@@ -71,13 +71,13 @@ INJECTED from C:\Users\des\Documents\lamaison-mobile\android\app\src\debug\Andro
 		INJECTED from C:\Users\des\Documents\lamaison-mobile\android\app\src\debug\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:1:1-44:12
+		ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:1:1-46:12
 		INJECTED from C:\Users\des\Documents\lamaison-mobile\android\app\src\debug\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:2:3-49
 	android:versionCode
 		INJECTED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:1:1-44:12
+		ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:1:1-46:12
 		INJECTED from C:\Users\des\Documents\lamaison-mobile\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:1:11-69
@@ -159,9 +159,9 @@ MERGED from [:viro_renderer] C:\Users\des\Documents\lamaison-mobile\node_modules
 	android:name
 		ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:20:19-67
 application
-ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:23:5-43:19
-MERGED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:23:5-43:19
-MERGED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:23:5-43:19
+ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:23:5-45:19
+MERGED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:23:5-45:19
+MERGED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:23:5-45:19
 MERGED from [com.facebook.react:react-native:0.63.2] C:\Users\des\.gradle\caches\transforms-3\833c71fe1fc8beb592be21ba83470baa\transformed\jetified-react-native-0.63.2\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.63.2] C:\Users\des\.gradle\caches\transforms-3\833c71fe1fc8beb592be21ba83470baa\transformed\jetified-react-native-0.63.2\AndroidManifest.xml:11:5-20
 MERGED from [:arcore_client] C:\Users\des\Documents\lamaison-mobile\node_modules\@viro-community\react-viro\android\arcore_client\build\.transforms\bfc171495302288c75729a7f5f33ba69\transformed\jetified-core-1.10.0\AndroidManifest.xml:30:5-44:19
@@ -209,7 +209,7 @@ ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidMa
 	android:name
 		ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:31:18-51
 activity#com.myviroapp.MainActivity
-ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:32:7-42:18
+ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:32:7-44:18
 	android:label
 		ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:34:9-41
 	android:launchMode
@@ -220,16 +220,26 @@ ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidMa
 		ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:35:9-86
 	android:name
 		ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:33:9-37
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:38:9-41:25
-action#android.intent.action.MAIN
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:lmscan+data:scheme:lmscan
+ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:38:9-43:25
+action#android.intent.action.VIEW
 ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:39:13-65
 	android:name
 		ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:39:21-62
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:40:13-73
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:40:13-72
 	android:name
-		ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:40:23-70
+		ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:40:23-69
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:41:13-74
+	android:name
+		ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:41:23-71
+data
+ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:42:13-67
+	android:host
+		ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:42:43-64
+	android:scheme
+		ADDED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml:42:19-42
 uses-sdk
 INJECTED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\des\Documents\lamaison-mobile\android\app\src\main\AndroidManifest.xml
