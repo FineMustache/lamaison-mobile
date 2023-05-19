@@ -1,6 +1,5 @@
-/* eslint-disable prettier/prettier */
-import React, {useState} from 'react';
-import {StyleSheet, View, Text} from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { StyleSheet, View, Text, Platform, Linking } from 'react-native';
 import {
   ViroARScene,
   ViroText,
@@ -17,89 +16,54 @@ import {
 } from '@viro-community/react-viro';
 
 const medidasModel = {
-  "Vase_1.obj": {
-    pos: [0,0,0],
-    scale: [0.08,0.08,0.08],
-    rotation: [0,0,0]
-  },
-  "round.obj": {
-    pos: [0,0,0],
-    scale: [0.0003,0.0003,0.0003],
-    rotation: [90,0,0]
-  },
-  "Paiting.obj": {
-    pos: [0,0,0],
-    scale: [0.001, 0.001, 0.001],
-    rotation: [0, 0, 0]
-  },
-  "lemon.obj": {
-    pos: [0,0,0],
-    scale: [0.001, 0.001, 0.001],
-    rotation: [0, 180, 0]
-  },
-  "arandel.obj": {
-    pos: [0,0,0],
-    scale: [0.001, 0.001, 0.001],
-    rotation: [90, 0 , 90]
-  },
-  "vasoOriental.obj": {
-    pos: [0,0,0],
-    scale: [0.001, 0.001, 0.001],
-    rotation: [0,0,0]
-  }
-}
-
-// const Cena2 = () => {
-//   const [text, setText] = useState('Initializing AR...');
-
-//   function onInitialized(state, reason) {
-//     console.log('guncelleme', state, reason);
-//     if (state === ViroConstants.TRACKING_NORMAL) {
-//       setText('Hello World!');
-//     } else if (state === ViroConstants.TRACKING_NONE) {
-//       // Handle loss of tracking
-//     }
-//   }
-
-//   ViroARTrackingTargets.createTargets({
-//     felipe:{
-//       source: require('./felipe357.jpg'),
-//       orientation: 'Down',
-//       physicalWidth: 1,
-//     },
-//   });
-//   return (
-//     // <ViroARScene onTrackingUpdated={onInitialized}>
-    
-
-//     // </ViroARScene>
-//     <View>
-//       <Text>Arroz cozido</Text>
-//     </View>
-//   );
-// };
+  // Defina as medidas do modelo aqui
+};
 
 const AR = (props) => {
   const [text, setText] = useState('Initializing AR...');
+  const [textura, setTextura] = useState('vaso_turcao.jpg');
 
-  // const handleClick = () => {
-  //   props.sceneNavigator.push({ scene: Cena2 })
-  // }
+  useEffect(() => {
+    const handleDeepLink = (event) => {
+      const { url } = event;
+      console.log(url)
+    };
+
+    if (Platform.OS === 'android') {
+      const url = Linking.getInitialURL();
+      console.log('macaco', url)
+      handleDeepLink({ url });
+    } else {
+      Linking.addEventListener('url', handleDeepLink);
+    }
+
+    return () => {
+      Linking.removeEventListener('url', handleDeepLink);
+    };
+  }, []);
 
   function onInitialized(state, reason) {
     console.log('guncelleme', state, reason);
     if (state === ViroConstants.TRACKING_NORMAL) {
-      setText('Hello World!');
+      // Lógica para quando o rastreamento está funcionando normalmente
     } else if (state === ViroConstants.TRACKING_NONE) {
-      // Handle loss of tracking
+      // Lógica para quando o rastreamento não está disponível
     }
   }
 
   ViroARTrackingTargets.createTargets({
-    felipe:{
+    felipe: {
       source: require('./felipe357.jpg'),
       orientation: 'Down',
       physicalWidth: 0.12,
+    },
+  });
+
+  ViroMaterials.createMaterials({
+    face: {
+      shininess: 1.0,
+      lightingModel: 'Blinn',
+      diffuseTexture: { uri: "https://lamaisontest.blob.core.windows.net/arquivos/Painting-1681469941861.jpg" },
     },
   });
   return (
@@ -107,7 +71,7 @@ const AR = (props) => {
     
 
     // </ViroARScene>
-    <ViroARScene>
+    <ViroARScene onTrackingUpdated={onInitialized}>
       <ViroARImageMarker target="felipe" onAnchorFound={() => console.log("achou")}>
         <ViroAmbientLight color="#FFFFFF" />
         <Viro3DObject
@@ -123,14 +87,6 @@ const AR = (props) => {
   </ViroARScene>
   );
 };
-
-ViroMaterials.createMaterials({
-  face: {
-    shininess: 1.0,
-    lightingModel: 'Blinn',
-    diffuseTexture: require('./vasoOriental/vasoOriental.png'),
-  },
-});
 
 export default () => {
   return (
