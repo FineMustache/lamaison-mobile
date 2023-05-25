@@ -48,112 +48,74 @@ const medidasModel = {
   }
 }
 
+import Nav from './components/AR';
+
 const useMount = func => useEffect(() => func(), []);
 
 export default () => {
   const [text, setText] = useState('Initializing AR...');
-    const [textura, setTextura] = useState('vaso_turcao.jpg');
-    const [id, setId] = useState(24);
-    const [processing, setProcessing] = useState(true);
-  const AR = (props) => {
+  const [textura, setTextura] = useState(null);
+  const [model, setModel] = useState(null)
+  const [id, setId] = useState(0);
+  const [processing, setProcessing] = useState(true);
+
+  useMount(() => {
     
+    const getUrlAsync = async () => {
+      // Get the deep link used to open the app
+      const initialUrl = await Linking.getInitialURL();
 
-    useMount(() => {
-      const getUrlAsync = async () => {
-        // Get the deep link used to open the app
-        const initialUrl = await Linking.getInitialURL();
+      console.log(initialUrl)
 
-        // The setTimeout is just for testing purpose
-        setTimeout(() => {
-          if (initialUrl !== null) {
-            setId(initialUrl.split('?')[1].split('=')[1])
-          }
-          setProcessing(false);
-        }, 1000);
-      };
+      // The setTimeout is just for testing purpose
+      setTimeout(() => {
+        if (initialUrl !== null) {
+          setId(initialUrl.split('?')[1].split('=')[1])
+        } else {
+          setId(30)
+        }
+        
+      }, 1000);
+    };
 
-      getUrlAsync();
-    });
+    getUrlAsync();
+  });
 
-    useEffect(() => {
+  useEffect(() => {
+    if (id !== 0) {
+      console.log(id)
       const options = { method: 'GET' };
 
-      fetch('https://gem-giant-cobbler.glitch.me/produto/25', options)
-        .then(response => response.json())
-        .then(response => {
-          console.log(response)
-          setTextura("https://lamaisontest.blob.core.windows.net/arquivos/" + response.textura)
-        })
-        .catch(err => console.error(err));
-    }, [id])
-
-    function onInitialized(state, reason) {
-      console.log('guncelleme', state, reason);
-      if (state === ViroConstants.TRACKING_NORMAL) {
-        // Lógica para quando o rastreamento está funcionando normalmente
-      } else if (state === ViroConstants.TRACKING_NONE) {
-        // Lógica para quando o rastreamento não está disponível
-      }
+    fetch('https://lamaison.glitch.me/produto/' + id, options)
+      .then(response => response.json())
+      .then(response => {
+        console.log(response)
+        setTextura("https://lamaisontest.blob.core.windows.net/arquivos/" + response.textura)
+        setModel("https://lamaisontest.blob.core.windows.net/arquivos/" + response.modelo)
+      })
+      .catch(err => console.error(err));
     }
+  }, [id])
 
-    ViroARTrackingTargets.createTargets({
-      felipe: {
-        source: require('./felipe357.jpg'),
-        orientation: 'Down',
-        physicalWidth: 0.12,
-      },
-    });
-
-    ViroMaterials.createMaterials({
-      face: {
-        shininess: 1.0,
-        lightingModel: 'Blinn',
-        diffuseTexture: { uri: textura },
-      },
-    });
-    return (
-      // <ViroARScene onTrackingUpdated={onInitialized}>
-
-
-      // </ViroARScene>
-      <ViroARScene onTrackingUpdated={onInitialized}>
-        <ViroARImageMarker target="felipe" onAnchorFound={() => console.log("achou")}>
-          <ViroAmbientLight color="#FFFFFF" />
-          <Viro3DObject
-            source={{ uri: "https://lamaisontest.blob.core.windows.net/arquivos/Painting-1681469942241.obj" }}
-            position={[0, 0, 0]}
-            scale={[0.001, 0.001, 0.001]}
-            rotation={[0, 0, 0]}
-            type="OBJ"
-            materials="face"
-          />
-          {/* <ViroBox position={[0, .25, 0]} scale={[.5, .5, .5]} /> */}
-        </ViroARImageMarker>
-      </ViroARScene>
-    );
-  };
+  useEffect(() => {
+    if (model !== null && textura !== null) {
+      setProcessing(false)
+    }
+  }, [textura, model])
 
   if (processing) {
-    return(
+    return (
       <View>
-        <TouchableOpacity onPress={() => setProcessing(false)}>
-          <Text>AI EU CRINJEI PAPAI</Text>
-        </TouchableOpacity>
+        <Text style={{color: 'white'}}>CARREGANDO AGUARDE</Text>
       </View>
     )
   } else {
     return (
-      <ViroARSceneNavigator
-        autofocus={true}
-        initialScene={{
-          scene: AR,
-        }}
-        style={styles.f1}
-      />
+      <Nav textura={textura} obj={model} id={id}/>
     );
   }
 
-  
+
 };
 
 var styles = StyleSheet.create({
