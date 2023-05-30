@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, View, Text, Platform, Linking, TouchableOpacity, Image } from 'react-native';
+import { StyleSheet, View, Text, Platform, Linking, TouchableOpacity, Image, PermissionsAndroid } from 'react-native';
 import {
   ViroARScene,
   ViroText,
@@ -49,11 +49,24 @@ const medidasModel = {
     }
   }
 
+  async function hasAndroidPermission() {
+    const permission = PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE;
+  
+    const hasPermission = await PermissionsAndroid.check(permission);
+    if (hasPermission) {
+      return true;
+    }
+  
+    const status = await PermissionsAndroid.request(permission);
+    return status === 'granted';
+  }
+
   export default Nav = (props) =>{
 
     const arNavigatorRef = React.useRef(null);
     
     function AR() {
+      const [pos, setPos] = useState(medidasModel['p' + props.id].pos)
 
       ViroARTrackingTargets.createTargets({
         felipe: {
@@ -80,7 +93,6 @@ const medidasModel = {
         }
       }
 
-      console.log(medidasModel['p' + props.id])
       return (
         // <ViroARScene onTrackingUpdated={onInitialized}>
   
@@ -97,17 +109,10 @@ const medidasModel = {
               type="OBJ"
               materials="face"
             />
-            {/* <ViroBox position={[0, .25, 0]} scale={[.5, .5, .5]} /> */}
           </ViroARImageMarker>
         </ViroARScene>
       );
     };
-
-    const takeScreenshot = async () => {
-      
-      let arroz = await arNavigatorRef.current._takeScreenshot("testaobao", true)
-      console.log(arroz)
-    }
     
     return(
       <View style={{flex: 1, position: 'relative'}}>
@@ -120,11 +125,6 @@ const medidasModel = {
         ref={arNavigatorRef}
 
       />
-      <View style={{position: 'absolute', bottom: 20, zIndex: 1, width: '100%', height: 100, display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-        <TouchableOpacity onPress={() => takeScreenshot()} style={{width: 100, height: 100, alignItems: 'center', justifyContent: 'center', borderRadius: 50, overflow: 'hidden', backgroundColor: 'white'}}>
-          <Image source={require('../../cam.png')} style={{width: 50, resizeMode: 'contain'}}/>
-        </TouchableOpacity>
-      </View>
       </View>
     )
   }

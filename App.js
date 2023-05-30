@@ -58,8 +58,10 @@ export default () => {
   const [model, setModel] = useState(null);
   const [id, setId] = useState(0);
   const [processing, setProcessing] = useState(true);
+  const [navKey, setNavKey] = useState(0); // Adicione o estado da chave única
 
-  useMount(() => {
+
+  useEffect(() => {
 
     const getUrlAsync = async () => {
       // Get the deep link used to open the app
@@ -72,17 +74,17 @@ export default () => {
         if (initialUrl !== null) {
           setId(initialUrl.split('?')[1].split('=')[1]);
         } else {
-          setId(29);
+          setId(-1);
         }
 
       }, 1000);
     };
 
     getUrlAsync();
-  });
+  }, []);
 
   useEffect(() => {
-    if (id !== 0) {
+    if (id > 0) {
       console.log(id);
       const options = { method: 'GET' };
 
@@ -104,16 +106,26 @@ export default () => {
   }, [textura, model]);
 
   if (processing) {
-    return (
-      <View style={{flex: 1, width: '100%', justifyContent: 'center', backgroundColor: 'black', flexDirection: 'column', alignItems: 'center', padding: 50}}>
+    if (id !== -1) {
+      return (
+        <View style={{flex: 1, width: '100%', justifyContent: 'center', backgroundColor: 'black', flexDirection: 'column', alignItems: 'center', padding: 50}}>
+          <Image source={require('./icon_white.png')} style={{width: '80%', resizeMode: 'contain'}}/>
+          <ActivityIndicator size={50} color="#fff" animating={true} />
+        </View>
+      );
+    } else {
+      return (
+        <View style={{flex: 1, width: '100%', justifyContent: 'center', backgroundColor: 'black', flexDirection: 'column', alignItems: 'center', padding: 50}}>
         <Image source={require('./icon_white.png')} style={{width: '80%', resizeMode: 'contain'}}/>
-        <ActivityIndicator size={50} color="#fff" animating={true} />
+        <Text style={{color: 'white'}}>Nenhum Produto Selecionado</Text>
       </View>
-    );
+      )
+    }
   } else {
-    return (
-      <Nav textura={textura} obj={model} id={id}/>
-    );
+      return (
+        <Nav key={navKey} textura={textura} obj={model} id={id}/>
+      );
+    
   }
 
 
