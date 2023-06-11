@@ -37,7 +37,7 @@ const medidasModel = {
       scale: [0.001, 0.001, 0.001],
       rotation: [0, 180, 0]
     },
-    "arandel.obj": {
+    "p23": {
       pos: [0, 0, 0],
       scale: [0.001, 0.001, 0.001],
       rotation: [90, 0, 90]
@@ -70,7 +70,7 @@ const medidasModel = {
 
       ViroARTrackingTargets.createTargets({
         felipe: {
-          source: require('../../felipe357.jpg'),
+          source: require('../../target.png'),
           orientation: 'Down',
           physicalWidth: 0.12,
         },

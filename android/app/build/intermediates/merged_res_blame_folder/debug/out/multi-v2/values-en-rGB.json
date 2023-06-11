@@ -1,61 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\des\\Documents\\lamaison-mobile\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
+            "outputFile": "C:\\Users\\usuario\\Documents\\lamaison-mobile\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\node_modules\\@viro-community\\react-viro\\android\\arcore_client\\build\\.transforms\\bfc171495302288c75729a7f5f33ba69\\transformed\\jetified-core-1.10.0\\res\\values-en-rGB\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "194,241,292,393,494",
-                        "endColumns": "46,50,100,100,62",
-                        "endOffsets": "240,291,392,493,556"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "105,156,211,316,421",
-                        "endColumns": "50,54,104,104,66",
-                        "endOffsets": "151,206,311,416,483"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\node_modules\\@viro-community\\react-viro\\android\\gvr_common\\build\\.transforms\\5936196eeb472edf620021ab5374d008\\transformed\\jetified-sdk-common-1.180.0\\res\\values-en-rGB\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "178,239,284,332,404,551,660,707,782,854,935,989,1172,1365,1433,1507,1574,1674,1772,1841,1884,1936",
-                        "endColumns": "60,44,47,71,146,108,46,74,71,80,53,182,192,67,73,66,99,97,68,42,51,66",
-                        "endOffsets": "238,283,331,403,550,659,706,781,853,934,988,1171,1364,1432,1506,1573,1673,1771,1840,1883,1935,2002"
-                    },
-                    "to": {
-                        "startLines": "34,35,36,37,38,39,40,41,42,43,44,45,46,58,59,60,61,62,64,65,67,68",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3145,3210,3259,3311,3387,3538,3651,3702,3781,3857,3942,4000,4187,5489,5561,5639,5710,5814,5998,6071,6219,6275",
-                        "endColumns": "64,48,51,75,150,112,50,78,75,84,57,186,196,71,77,70,103,101,72,46,55,70",
-                        "endOffsets": "3205,3254,3306,3382,3533,3646,3697,3776,3852,3937,3995,4182,4379,5556,5634,5705,5809,5911,6066,6113,6270,6341"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\des\\.gradle\\caches\\transforms-3\\384a804ddf61add8f1298a3b8f500b71\\transformed\\core-1.1.0\\res\\values-en-rGB\\values-en-rGB.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "66",
-                        "startColumns": "4",
-                        "startOffsets": "6118",
-                        "endColumns": "100",
-                        "endOffsets": "6214"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\des\\.gradle\\caches\\transforms-3\\2b33f08a78071dc79c67b5b0c82c3366\\transformed\\appcompat-1.1.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "source": "C:\\Users\\usuario\\.gradle\\caches\\transforms-3\\2b33f08a78071dc79c67b5b0c82c3366\\transformed\\appcompat-1.1.0\\res\\values-en-rGB\\values-en-rGB.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -72,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\des\\.gradle\\caches\\transforms-3\\88f911b5514d7872c578f03b3281118c\\transformed\\jetified-exoplayer-ui-2.7.1\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "source": "C:\\Users\\usuario\\Documents\\lamaison-mobile\\node_modules\\@viro-community\\react-viro\\android\\arcore_client\\build\\.transforms\\3be43127b95fb48505d0ddac2d922721\\transformed\\jetified-core-1.10.0\\res\\values-en-rGB\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "194,241,292,393,494",
+                        "endColumns": "46,50,100,100,62",
+                        "endOffsets": "240,291,392,493,556"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "105,156,211,316,421",
+                        "endColumns": "50,54,104,104,66",
+                        "endOffsets": "151,206,311,416,483"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\usuario\\.gradle\\caches\\transforms-3\\1eb31d345f12c383a3da3860cfc62c61\\transformed\\jetified-exoplayer-ui-2.7.1\\res\\values-en-rGB\\values-en-rGB.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -86,6 +52,40 @@
                         "startOffsets": "4384,4492,4591,4686,4779,4886,4991,5097,5201,5298,5397",
                         "endColumns": "107,98,94,92,106,104,105,103,96,98,91",
                         "endOffsets": "4487,4586,4681,4774,4881,4986,5092,5196,5293,5392,5484"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\usuario\\Documents\\lamaison-mobile\\node_modules\\@viro-community\\react-viro\\android\\gvr_common\\build\\.transforms\\9c9bea320d97bbb0624fb243db253e31\\transformed\\jetified-sdk-common-1.180.0\\res\\values-en-rGB\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "178,239,284,332,404,551,660,707,782,854,935,989,1172,1365,1433,1507,1574,1674,1772,1841,1884,1936",
+                        "endColumns": "60,44,47,71,146,108,46,74,71,80,53,182,192,67,73,66,99,97,68,42,51,66",
+                        "endOffsets": "238,283,331,403,550,659,706,781,853,934,988,1171,1364,1432,1506,1573,1673,1771,1840,1883,1935,2002"
+                    },
+                    "to": {
+                        "startLines": "34,35,36,37,38,39,40,41,42,43,44,45,46,58,59,60,61,62,64,65,67,68",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3145,3210,3259,3311,3387,3538,3651,3702,3781,3857,3942,4000,4187,5489,5561,5639,5710,5814,5998,6071,6219,6275",
+                        "endColumns": "64,48,51,75,150,112,50,78,75,84,57,186,196,71,77,70,103,101,72,46,55,70",
+                        "endOffsets": "3205,3254,3306,3382,3533,3646,3697,3776,3852,3937,3995,4182,4379,5556,5634,5705,5809,5911,6066,6113,6270,6341"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\usuario\\.gradle\\caches\\transforms-3\\384a804ddf61add8f1298a3b8f500b71\\transformed\\core-1.1.0\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "66",
+                        "startColumns": "4",
+                        "startOffsets": "6118",
+                        "endColumns": "100",
+                        "endOffsets": "6214"
                     }
                 }
             ]

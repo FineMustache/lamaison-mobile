@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\des\\Documents\\lamaison-mobile\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "C:\\Users\\usuario\\Documents\\lamaison-mobile\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\des\\Documents\\lamaison-mobile\\node_modules\\@viro-community\\react-viro\\android\\viro_renderer\\build\\.transforms\\0ccea17859b0cfc71691218087c7cab7\\transformed\\jetified-viro_renderer-release\\res\\values-w820dp-v13\\values-w820dp-v13.xml",
+                    "source": "C:\\Users\\usuario\\Documents\\lamaison-mobile\\node_modules\\@viro-community\\react-viro\\android\\viro_renderer\\build\\.transforms\\c3c3ce535d739eef8b3ffec346baf712\\transformed\\jetified-viro_renderer-release\\res\\values-w820dp-v13\\values-w820dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
