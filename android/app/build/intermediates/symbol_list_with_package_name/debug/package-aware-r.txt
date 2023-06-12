@@ -693,6 +693,12 @@ drawable exo_controls_repeat_one
 drawable exo_controls_rewind
 drawable exo_controls_shuffle
 drawable exo_edit_mode_logo
+drawable icon_white
+drawable node_modules_virocommunity_reactviro_components_resources_viro_blank
+drawable node_modules_virocommunity_reactviro_components_resources_viro_spinner_1
+drawable node_modules_virocommunity_reactviro_components_resources_viro_spinner_1_w
+drawable node_modules_virocommunity_reactviro_components_resources_viro_spinner_1a
+drawable node_modules_virocommunity_reactviro_components_resources_viro_spinner_1a_w
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -709,6 +715,7 @@ drawable quantum_ic_close_white_24
 drawable quantum_ic_settings_white_24
 drawable redbox_top_border_background
 drawable rippleable
+drawable target
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable transition
@@ -1024,7 +1031,10 @@ layout transition_view
 layout ui_layer
 layout ui_layer_with_portrait_support
 mipmap ic_launcher
+mipmap ic_launcher_adaptive_back
+mipmap ic_launcher_adaptive_fore
 mipmap ic_launcher_round
+raw app
 raw keep
 string __arcore_cancel
 string __arcore_continue
